@@ -1,0 +1,8 @@
+<%= simple_form_for(@item) do |f| %>
+  <%= f.error_notification %>
+
+  <%= f.input :image, as: :attachinary %>
+
+  <%= f.submit %>
+
+<% end %>
